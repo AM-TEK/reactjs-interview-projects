@@ -1,11 +1,12 @@
 import './App.css';
+import QRCodeGenerator from './components/qr-code-generator';
 // import ImageSlider from './components/image-slider';
 // import LoadMoreData from './components/load-more-data';
-import TreeView from './components/tree-view';
+// import TreeView from './components/tree-view';
 // import Accordian from './components/accordian';
 // import RandomColor from './components/random-color';
 // import StarRating from './components/star-rating';
-import menus from './components/tree-view/data'
+// import menus from './components/tree-view/data'
 
 function App() {
   
@@ -20,7 +21,8 @@ function App() {
         limit={"10"}
       /> */}
       {/* <LoadMoreData /> */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      <QRCodeGenerator />
     </div>
   );
 }
