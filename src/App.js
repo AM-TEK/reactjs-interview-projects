@@ -1,5 +1,6 @@
 import './App.css';
-import ModalTest from './components/custom-modal-popup/modal-test';
+// import ModalTest from './components/custom-modal-popup/modal-test';
+import GithubProfileFinder from './components/github-profile-finder';
 // import LightDarkMode from './components/light-dark-mode';
 // import ScrollIndicator from './components/scroll-indicator';
 // import QRCodeGenerator from './components/qr-code-generator';
@@ -30,7 +31,8 @@ function App() {
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
       {/* <TabTest /> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      <GithubProfileFinder />
     </div>
   );
 }
