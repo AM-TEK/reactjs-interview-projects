@@ -1,6 +1,6 @@
 import './App.css';
 // import LightDarkMode from './components/light-dark-mode';
-import ScrollIndicator from './components/scroll-indicator';
+// import ScrollIndicator from './components/scroll-indicator';
 // import QRCodeGenerator from './components/qr-code-generator';
 // import ImageSlider from './components/image-slider';
 // import LoadMoreData from './components/load-more-data';
@@ -8,6 +8,7 @@ import ScrollIndicator from './components/scroll-indicator';
 // import Accordian from './components/accordian';
 // import RandomColor from './components/random-color';
 // import StarRating from './components/star-rating';
+import TabTest from './components/custom-tabs/tab-test'
 // import menus from './components/tree-view/data'
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <TreeView menus={menus} /> */}
       {/* <QRCodeGenerator /> */}
       {/* <LightDarkMode /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
+      <TabTest />
     </div>
   );
 }
